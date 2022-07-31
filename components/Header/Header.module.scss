@@ -1,0 +1,13 @@
+
+.header {
+    display: flex;
+    user-select: none;
+    background-color: #343a40;
+    padding: 14px;
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        gap:20px;
+    }
+}
