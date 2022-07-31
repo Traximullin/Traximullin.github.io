@@ -1,0 +1,16 @@
+
+.title {
+    color:#f8f9fa;
+
+    &__back {
+        cursor: pointer;
+    }
+
+    &__text {
+        font-size: 32px;
+    }
+
+    &__sub-text {
+        font-size: 12px;
+    }
+}

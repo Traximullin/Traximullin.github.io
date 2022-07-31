@@ -1,12 +1,9 @@
-/** @type {import('next').NextConfig} */
-
-const path = require('path')
 
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  scssOptions: {
-    includePaths: [path.join(__dirname, 'styles')]
+  images: {
+    domains: ['images.punkapi.com'],
   },
   env: {
     API_URL: process.env.API_URL,
