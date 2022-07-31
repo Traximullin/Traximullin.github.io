@@ -1,0 +1,23 @@
+
+.container {
+    display: grid;
+    grid-template-rows: 0.5fr 10fr;
+    height: 100vh;
+    background-color: #212529;
+
+    &__header {
+        display: flex;
+        user-select: none;
+        gap: 20px;
+        background-color: #343a40;
+        padding: 14px;
+    }
+
+    &__content {
+        margin: 0 auto;
+        background: #495057;
+        width: 60vw;
+        padding: 24px;
+    }
+
+}
