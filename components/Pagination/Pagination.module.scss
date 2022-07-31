@@ -1,0 +1,16 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+
+    &__item {
+        user-select: none;
+        cursor: pointer;
+        border-radius: 3px;
+        background-color: #F1F1F1;
+        padding: 7px;
+    }
+
+}

@@ -1,0 +1,41 @@
+
+.card-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    background-color: #6c757d;
+    cursor: pointer;
+
+    &__title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #f8f9fa;
+    }
+
+    &__description {
+        color: #ced4da;
+    }
+
+    &:hover {
+        animation: highlightCard 2s linear infinite;
+    }
+
+}
+
+@keyframes highlightCard {
+    0% {
+        border-color: #0077b6;
+    }
+    50% {
+        border-color: #00b4d8;
+    }
+    100% {
+        border-color: #0077b6;
+    }
+}
+

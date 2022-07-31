@@ -1,27 +1,20 @@
 // Functional
 import React from "react"
-import Image from "next/image"
 // Styles 
 import styles from "./Container.module.scss"
-import { SVG } from "../../utils/svg"
+// Local component
+import Header from "../../components/Header/Header"
 
-const Container = () => {
+const Container = React.memo(function Container({ children }) {
     
     return (
         <div className={styles["container"]}>
-            <div className={styles["container__header"]}>
-                <Image
-                    src={SVG.beer}
-                    alt="logo"
-                    width={22}
-                    height={18}
-                />
-            </div>
+            <Header/>
             <div className={styles["container__content"]}>
-                1
+                {children}
             </div>
         </div>
     )
-}
+})
 
 export default Container 

@@ -1,0 +1,22 @@
+
+.search {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 25px;
+    position: relative;
+    width: 100%;
+
+    &__input, &__button {
+        padding: 12px;
+    }
+
+    &__input {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    &__button {
+        border-radius: 5px;
+    }
+
+}
